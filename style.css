@@ -62,8 +62,6 @@ header nav a {
 header nav a:hover {
     background-color: #FFFFFF;
     color: #6A44FF;
-    transform: translateY(-3px);
-    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
 }
 
 h1,
@@ -148,6 +146,26 @@ html {
     width: 100%;
     align-items: center;
 
+}
+
+.hamburguer-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+}
+
+.hamburguer-menu .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
 }
 
 #sobre {
@@ -446,24 +464,4 @@ footer {
 footer p {
     color: #a7a7a7;
     font-size: 14px;
-}
-
-.hamburguer-menu {
-    display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 30px;
-    height: 25px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    z-index: 10;
-}
-
-.hamburguer-menu .bar {
-    width: 100%;
-    height: 3px;
-    background-color: #FFFFFF;
-    border-radius: 2px;
 }
