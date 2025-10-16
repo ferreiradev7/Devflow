@@ -18,7 +18,7 @@ elementsToAnimate.forEach(element => {
 });
 
 
-const hamburger = document.querySelector('.hamburger-menu');
+const hamburguer = document.querySelector('.hamburguer-menu');
 const navMenu = document.querySelector('.main-nav');
 
 hamburger.addEventListener('click', () => {
