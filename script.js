@@ -21,7 +21,7 @@ elementsToAnimate.forEach(element => {
 const hamburguer = document.querySelector('.hamburguer-menu');
 const navMenu = document.querySelector('.main-nav');
 
-hamburger.addEventListener('click', () => {
+hamburguer.addEventListener('click', () => {
     navMenu.classList.toggle('is-active');
 });
 
