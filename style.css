@@ -393,7 +393,9 @@ html {
     }
 
     .hamburguer-menu.is-active .bar:nth-child(1) {
-        transform: translateY(8.5) rotate(45deg);
+        position:relative;
+        top:8.5px;
+        transform:rotate(45deg);
     }
 
     .hamburguer-menu.is-active .bar:nth-child(2) {
@@ -401,7 +403,9 @@ html {
     }
 
     .hamburguer-menu.is-active .bar:nth-child(3) {
-        transform:  translateY(-8.5) rotate(-45deg);
+        position:relative;
+        top:-8.5px;
+        transform:rotate(-45deg);
     }
 
 
