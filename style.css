@@ -158,7 +158,7 @@ html {
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 25px;
+    height: 20px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -393,7 +393,7 @@ html {
     }
 
     .hamburguer-menu.is-active .bar:nth-child(1) {
-        transform: rotate(45deg) translate(7px, 7px);
+        transform: rotate(45deg) translate(5px, 5px);
     }
 
     .hamburguer-menu.is-active .bar:nth-child(2) {
@@ -401,7 +401,7 @@ html {
     }
 
     .hamburguer-menu.is-active .bar:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -7px);
+        transform: rotate(-45deg) translate(6px, -6px);
     }
 
 
