@@ -171,6 +171,7 @@ html {
     height: 3px;
     background-color: #FFFFFF;
     border-radius: 2px;
+    transition: all 0.3s ease;
 }
 
 #sobre {
@@ -351,7 +352,7 @@ html {
 
 
     .main-nav {
-        display: none;
+        display: flex;
         flex-direction: column;
         position: fixed;
         top: 0;
@@ -379,7 +380,6 @@ html {
     }
 
     .main-nav.is-active {
-        display: flex;
         right: 0;
     }
 
