@@ -56,12 +56,16 @@ header nav a {
     padding: 8px 16px;
     border: 2px solid #FFFFFF;
     border-radius: 6px;
+    display: inline-block;
+    transform: translateY(0);
 }
 
 
 header nav a:hover {
     background-color: #FFFFFF;
     color: #6A44FF;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(106, 68, 255, 0.3);
 }
 
 h1,
