@@ -156,7 +156,7 @@ html {
 .hamburguer-menu {
     display: none;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 30px;
     height: 25px;
     background: transparent;
@@ -391,7 +391,7 @@ html {
     }
 
     .hamburguer-menu.is-active .bar:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
+        transform: rotate(45deg) translate(6px, 6px);
     }
 
     .hamburguer-menu.is-active .bar:nth-child(2) {
@@ -399,7 +399,7 @@ html {
     }
 
     .hamburguer-menu.is-active .bar:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6x);
+        transform: rotate(-45deg) translate(6px, -6px);
     }
 
 
