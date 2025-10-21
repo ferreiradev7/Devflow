@@ -8,7 +8,9 @@ A página é totalmente responsiva e apresenta as funcionalidades do produto em 
 
 ## Tecnologias usadas:
 -HTML5: Utilizado para a estruturação semântica do conteúdo da página.
+
 -CSS3: Usado para toda a estilização, layout , efeitos de hover, transições e responsividade por meio da Media Queries.
+
 -JavaScript : Utilizado para adicionar interatividade, como o controle do menu hambúrguer e a ativação de animações de scroll (IntersectionObserver).
 
 ## Instruções para executá-lo:
