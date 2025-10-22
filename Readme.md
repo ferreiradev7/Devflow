@@ -1,5 +1,7 @@
 # DevFlow - Landing Page
-https://ferreiradev7.github.io/Devflow
+Link para acessar o site: https://ferreiradev7.github.io/Devflow
+
+Desenvolvido por : Humberto Pimenta Ferreira Filho.
 
 ## Descrição
 Este é um projeto de landing page para o "DevFlow", um site fictício de SaaS.
